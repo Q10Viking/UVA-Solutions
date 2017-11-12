@@ -17,7 +17,7 @@ bool BetterThanOther(int *firstCount,int *secondCount,bool &secondWin){
 			}
 		}
 
-	//	return false;        //如果不加这一句的话，如果上面的for循环没有返回值，则这里将会返回一个数值，而这个数值会代表真，
+		return false;        //如果不加这一句的话，如果上面的for循环没有返回值，则这里将会返回一个数值，而这个数值会代表真，
 
 		//这样就会出现这样的结果，当两个都一样的时候，会出现black win. 因为没有最后的这个return,函数将会返回一个数值如（255），则代表真。
 		//看下面additional例子
